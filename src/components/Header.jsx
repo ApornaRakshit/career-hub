@@ -1,5 +1,3 @@
-
-
 import {
   CubeIcon, Bars3BottomRightIcon,
   XMarkIcon,
@@ -146,7 +144,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
