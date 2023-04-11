@@ -10,7 +10,7 @@ const FeatureData = (props) => {
   return (
     <div>
       <div>
-      <div className="card w-full mb-10 bg-base-100 shadow-2xl">
+      <div className="card w-full h-96 mb-10 bg-base-100 shadow-2xl">
         <figure><img className="mx-auto my-6 text-center " src={logo} alt="Shoes" /></figure>
         <div className="card-body">
           <h2 className="card-title">

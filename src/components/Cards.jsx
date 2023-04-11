@@ -25,10 +25,10 @@ const Cards = () => {
                 </div>
             </section>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 m-10 gap-2 h-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 m-10 h-100 gap-2 ">
             {
                 item.map((featureData) => {
-                    return <FeatureData featureData={featureData} />
+                    return <FeatureData featureData={featureData} key ={featureData.id} />
                 }
             )}
             </div>
