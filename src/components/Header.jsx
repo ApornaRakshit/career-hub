@@ -103,7 +103,7 @@ const Header = () => {
                       <Link to='/' className='default'>
                         Home
                       </Link>
-                     
+
                     </li>
                     <li>
                       <Link

@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  MapPinIcon
 
-} from '@heroicons/react/24/solid'
 
 const FeatureData = (props) => {
   console.log(props.featureData);

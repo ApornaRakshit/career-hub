@@ -1,5 +1,7 @@
 import React from "react";
 import Images from '../Images/P3OLGJ1 copy 1.png';
+import Card from "./card";
+import Cards from "./Cards";
 
 const Home = () => {
 
@@ -20,22 +22,13 @@ const Home = () => {
                     </div>
                     <button className='bg-blue-400 rounded-md px-4 py-2 mt-4 text-white fw-bold'>Get Started</button>
                 </div>
-
                 <div className='mt-10'>
                     <img className='person-img' src={Images} alt=""></img>
                 </div>
-
             </div>
 
-            <section>
-                <div className="text-center px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mt-10 mb-10">
-                    <h2 className="text-2xl font-bold">Job Category List</h2>
-                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                </div>
-            </section>
-
-
-            
+            <Card />
+            <Cards />
 
         </div>
 
