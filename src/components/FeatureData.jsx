@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 
 const FeatureData = (props) => {
   console.log(props.featureData);
-  const { name, company, logo, _job, _job_ } = props.featureData
+  const { name, company, logo, _job, _job_ ,id} = props.featureData
   return (
     <div>
       <div>
