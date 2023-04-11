@@ -2,8 +2,10 @@ import React from "react";
 import Images from '../Images/P3OLGJ1 copy 1.png';
 
 const Home = () => {
+    
     return (
-        <div className='my-container px-4 flex flex-col items-center justify-between lg:flex-row'>
+        <div>
+            <div className='my-container px-4 flex flex-col items-center justify-between lg:flex-row'>
             {/* Text Content */}
             <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0'>
                 <div className='max-w-xl mb-6 lg:mt-8'>
@@ -20,9 +22,18 @@ const Home = () => {
             </div>
 
             <div className='mt-10'>
-                <img className='cam-img' src={Images} alt=""></img>
-            </div>
+                <img className='person-img' src={Images} alt=""></img>
+            </div> 
+            
         </div>
+
+        <div className="text-center px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mt-10 mb-10">
+        <h2 className="text-2xl font-bold">Job Category List</h2>
+        <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+      </div>
+
+    </div>      
+
     );
 };
 

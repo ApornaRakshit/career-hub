@@ -9,7 +9,6 @@ import Blog from './components/Blog'
 import StarApply from './components/StarApply'
 import Home from './components/Home'
 
-
 const router = createBrowserRouter([
   {
     path:'/',
