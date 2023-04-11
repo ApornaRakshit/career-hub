@@ -11,6 +11,8 @@ import JobApply from './components/JobApply'
 import Blog from './components/Blog'
 import StarApply from './components/StarApply'
 import Home from './components/Home'
+import ViewDetail from './components/ViewDetail';
+
 
 const router = createBrowserRouter([
   {
@@ -37,7 +39,16 @@ const router = createBrowserRouter([
       path:'starApply',
       element: <StarApply />,
     },
+    {
+      path:'viewDetail',
+      element: <ViewDetail />,
+    },
+
+
     ],
+    
+    
+    
   },
 ])
 
