@@ -1,10 +1,9 @@
 import React from "react";
-import { Link, } from 'react-router-dom'
 
 const Product = (props) => {
     const { Responsibility, description, requirements, experience } = props.product
 
-const handleAddToCart = props.handleAddToCart
+    const handleAddToCart = props.handleAddToCart
 
     return (
         <div className="">
@@ -16,11 +15,11 @@ const handleAddToCart = props.handleAddToCart
                     <p>Educational Requirements:{requirements}</p>
                     <p>Experiences{experience}</p>
                 </div>
-               <button onClick={()=>handleAddToCart(props.product)} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-4 text-white fw-bold'>Apply Now
+                <button onClick={() => handleAddToCart(props.product)} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-4 text-white fw-bold'>Apply Now
                 </button>
+            </div>
+            <div>
 
-
-                
             </div>
         </div>
     )

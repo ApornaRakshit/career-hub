@@ -12,6 +12,7 @@ import Blog from './components/Blog'
 import StarApply from './components/StarApply'
 import Home from './components/Home'
 import ViewDetail from './components/ViewDetail';
+import ErrorPage from './components/error-page'
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
     {
       path:'/',
       element:<Home />,
+      
     },
     {
       path:'statistics',
@@ -45,9 +47,7 @@ const router = createBrowserRouter([
     },
 
     ],
-    
-    
-    
+    errorElement: <ErrorPage />,
   },
 ])
 

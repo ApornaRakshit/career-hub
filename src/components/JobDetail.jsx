@@ -32,12 +32,9 @@ const JobDetail = (props) => {
                         {address}
                                     {/*Apply Nowwwwwwwwwww*/}
                         
-                        <button className='bg-blue-400 rounded-md px-4 py-2 mt-4 mb-4 text-white fw-bold'>  Apply Now
+                         <button className='bg-blue-400 rounded-md px-4 py-2 mt-4 mb-4 text-white fw-bold'>Apply Now
                         </button>
                         
-                        {/* <Link to='/viewDetail' className='default'><button className='bg-blue-400 rounded-md px-4 py-2 mt-4 mb-4 text-white fw-bold'>Apply Now
-                        </button>
-                        </Link> */}
                     </div>
                 </div>
             </div>
