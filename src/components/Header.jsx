@@ -57,7 +57,7 @@ const Header = () => {
               to='/starApply'
               className={({ isActive }) => (isActive ? 'hover:text-blue-400' : 'default')}
             >
-              Star Apply
+              <button className='bg-blue-400  rounded-md px-4 py-2  text-white fw-bold'>Star apply</button>
             </NavLink>
           </li>
         </ul>
