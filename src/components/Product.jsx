@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Product = (props) => {
@@ -15,8 +16,7 @@ const Product = (props) => {
                     <p>Educational Requirements:{requirements}</p>
                     <p>Experiences{experience}</p>
                 </div>
-                <button onClick={() => handleAddToCart(props.product)} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-4 text-white fw-bold'>Apply Now
-                </button>
+                
             </div>
             <div>
 
@@ -26,3 +26,5 @@ const Product = (props) => {
 }
 
 export default Product 
+
+ 

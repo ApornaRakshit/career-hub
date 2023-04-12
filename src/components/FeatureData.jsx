@@ -34,7 +34,7 @@ const FeatureData = (props) => {
              
             </div>
             <div className="card-actions">
-              <Link to='/viewDetail' className='default'><button onClick={()=>handleAddToCart(props.product)} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-2 text-white fw-bold'>View Detail</button>
+              <Link to='/viewDetail' className='default'><button onClick={()=>handleAddToCart(props.product[id])} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-2 text-white fw-bold'>View Detail</button>
               </Link>
             </div>
           </div>
