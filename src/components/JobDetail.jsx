@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 const JobDetail = (props) => {
-    console.log(props.jobDetail);
+    //console.log(props.jobDetail);
     const { Responsibility, name, description, requirements, experience, salary, jobTitle, phone, email, address, company } = props.jobDetail;
     return (
         <div className="">

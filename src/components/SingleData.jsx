@@ -2,7 +2,7 @@ import React from "react";
 
 
 const SingleData = (props) => {
-  console.log(props.singleData)
+  //console.log(props.singleData)
   const { icons,_name, jobAvailable } = props.singleData;
   return (
     <div>

@@ -2,8 +2,11 @@ import React from "react";
 import { Link, } from 'react-router-dom'
 
 const FeatureData = (props) => {
-  console.log(props.featureData);
+  //console.log(props.featureData);
   const { name, company, logo, _job, _job_ ,id} = props.featureData
+
+  const handleAddToCart = props.handleAddToCart
+
   return (
     <div>
       <div>
@@ -28,14 +31,14 @@ const FeatureData = (props) => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               {_job_}
+             
             </div>
             <div className="card-actions">
-              <Link to='/viewDetail' className='default'><button className='bg-blue-400 rounded-md px-4 py-2 mt-4 mb-4 text-white fw-bold'>View Details
-              </button>
+              <Link to='/viewDetail' className='default'><button onClick={()=>handleAddToCart(props.product)} className='bg-blue-400 text-center rounded-md px-4 py-2 mb-2 text-white fw-bold'>View Detail</button>
               </Link>
-
             </div>
           </div>
+          
         </div>
       </div>
     </div>
