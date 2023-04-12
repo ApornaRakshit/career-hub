@@ -11,9 +11,6 @@ const ViewDetail = () => {
          const res = await fetch('features.json');
          const detail = await res.json();
          
-       
-
-
          setDetail(detail);
         }
         loadDetail();
