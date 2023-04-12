@@ -4,8 +4,6 @@ import JobDetail from "./JobDetail";
 const ViewDetail = () => {
     const [detail, setDetail] = useState([]);
 
-
-
     useEffect(() => {
         const loadDetail = async () => {
             const res = await fetch('features.json');
