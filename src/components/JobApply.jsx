@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Product from "./Product";
-import JobDetail from "./JobDetail";
+
 
 const JobApply = () => {
     const [features, setFeatures] = useState([]);
 
     const [cart, setCart] = useState([])
-
-
 
     useEffect(() => {
         fetch('features.json')

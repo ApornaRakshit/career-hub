@@ -1,5 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
+import AnotherChart from './AnotherChart';
 
 
 const Statistics = () => {
@@ -67,7 +68,7 @@ const Statistics = () => {
                 </AreaChart>
             </div>
             <div className='mt-20 ms-5'>
-                <h1>PieChart</h1>
+                <AnotherChart></AnotherChart>
             </div>
         </div>
 
